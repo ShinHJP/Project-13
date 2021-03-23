@@ -65,10 +65,10 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+- What is the main advantage of automating configuration with Ansible?
+    The main advantage is configuration management and provisioning.
 
-The playbook implements the following tasks:
-- The Playbook Implementations through the following tasks:  
+The Playbook Implementations through the following tasks:  
   - .Install docker
   - .Install pip3
   - .Install docker python module
@@ -81,7 +81,11 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+  - Web-1: 10.0.0.5
+  - Web-2: 10.0.0.6
+  - Web-3: 10.0.0.7
+  - ELK-SERVER: 10.1.0.4
+  -
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
