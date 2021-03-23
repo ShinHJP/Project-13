@@ -51,7 +51,7 @@ Only the Jump-Box machine can accept connections from the Internet. Access to th
     168.61.182.23
 
 Machines within the network can only be accessed by SSH from the Jump-Box VM.
-- Which machine did you allow to access your ELK VM? What was its IP address?
+- TOTOTOT: Which machine did you allow to access your ELK VM? What was its IP address?
     Jump-Box can access the ELK-SERVER private IP is 10.2.0.4
 
 A summary of the access policies in place can be found in the table below.
