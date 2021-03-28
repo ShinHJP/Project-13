@@ -77,7 +77,7 @@ The Playbook Implementations through the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-The playbook is duplicated below.
+![/Ansible/install-elk.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/install-elk.yml)
 
 ![/Ansible/install-elk.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/install-elk.yml)
 
