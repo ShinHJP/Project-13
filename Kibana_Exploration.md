@@ -33,7 +33,7 @@ The following images are steps taken to add sample data for observation:
 - Select View Data to pull up the dashboard.
 ![/Images/Kibana_Exploration_Images/InstalledSampleWebData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/InstalledSampleWebData.PNG)
 
-- Sample Data Questions:
+##Sample Data Questions:
   - In the last 7 days, how many unique visitors were located in India?
   - Answer: 225
   ![/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG)
@@ -49,5 +49,23 @@ The following images are steps taken to add sample data for observation:
   ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
 
   - In the last 7 days, what country produced the majority of the traffic on the website?
+  - Answer: China
+  ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
+
+
   - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
+  - Answer:
+
+  ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
+
   - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type.
+  - Answer:
+
+![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
+
+##Unique Visitors Vs. Average Bytes
+  - Is there anything that seems potentially strange about this activity?
+  - Filter the data by this event. What is the timestamp for this event?
+  - What kind of file was downloaded?
+  - From what country did this activity originate?
+  - What HTTP response codes were encountered by this visitor?
