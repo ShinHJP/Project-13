@@ -50,16 +50,22 @@ The following images are steps taken to add sample data for observation:
 
   - In the last 7 days, what country produced the majority of the traffic on the website?
   - Answer: China
-  ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
 
+  ![/Images/Kibana_Exploration_Images/Heatmap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Heatmap.PNG)
+  ![/Images/Kibana_Exploration_Images/Request map.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Request%20map.PNG)
 
   - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
-  - Answer:
+  - Answer:10 AM and 1 PM
 
   ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
 
   - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type.
   - Answer:
+    - gz: .gz is and archive file compressed, created using the gzip compression utility.
+    - css: .css cascading style sheet, defines the graphical interface of HTML information on a webpage. They are downloaded with their .html counterparts and rendered by the browser.
+    - zip: An archive compression format file. A .zip file may contain one or more files or directories that have been compressed.
+    - deb: A file with the .deb file extension is a Debian (Linux) Software Package file. These files are installed when using the apt package manager.
+    - rpm: .rpm file formats are a Red Hat Software Package file. RPM stands for Red Hat Package Manager.
 
 ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
 
