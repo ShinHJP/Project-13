@@ -77,9 +77,9 @@ The Playbook Implementations through the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![/Ansible/install-elk.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/install-elk.yml)
+![/Images/Docker_ps.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Docker_ps.PNG)
 
-![/Ansible/install-elk.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/install-elk.yml)
+![/Images/Install_ELK_Playbook.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Install_ELK_Playbook.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
