@@ -91,6 +91,9 @@ The following images are steps taken to add sample data for observation:
   - From what country did this activity originate?
   - Answer: Algeria and Brazil
 
-  ![/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG)
+  ![/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG)
 
   - What HTTP response codes were encountered by this visitor?
+  - Answer: HTTP Code: 200 -100%
+
+  ![/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG)
