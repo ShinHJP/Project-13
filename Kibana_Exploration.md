@@ -86,7 +86,11 @@ The following images are steps taken to add sample data for observation:
   - What kind of file was downloaded?
   - Answer: zip file
 
-  ![/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG)
+  ![/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG)
 
   - From what country did this activity originate?
+  - Answer: Algeria and Brazil
+
+  ![/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG)
+
   - What HTTP response codes were encountered by this visitor?
