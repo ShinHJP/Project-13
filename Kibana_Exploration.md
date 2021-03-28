@@ -95,7 +95,6 @@ The following images are steps taken to add sample data for observation:
   - What is the source IP address of this activity?
   - Answer:
 
-
   - What are the geo coordinates of this activity?
   - What OS was the source machine running?
   - What is the full URL that was accessed?
