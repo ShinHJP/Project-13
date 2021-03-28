@@ -39,10 +39,15 @@ The following images are steps taken to add sample data for observation:
   ![/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG)
 
   - In the last 24 hours, of the visitors from China, how many were using Mac OSX?
-  - Answer:43
+  - Answer: 43
   ![/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG)
 
   - In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
+  - Answer:
+    - 404 Error: 0%
+    - 503 Error: 0%
+  ![/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG)
+
   - In the last 7 days, what country produced the majority of the traffic on the website?
   - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
   - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type.
