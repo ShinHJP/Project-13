@@ -76,7 +76,12 @@ The following images are steps taken to add sample data for observation:
   - Filter the data by this event. What is the timestamp for this event?
   - Answer:
 
-  ![/Images/Kibana_Exploration_Images/highestbytecount.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/highestbytecount.PNG)
+  Filtered the two counts
+  ![/Images/Kibana_Exploration_Images/2uniquevisitorsHighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/2uniquevisitorsHighusage.PNG)
+
+  Filtered Time
+  ![/Images/Kibana_Exploration_Images/Highusageby2visitors_FilteredTime.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Highusageby2visitors_FilteredTime.PNG)
+  ![/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG)
 
   - What kind of file was downloaded?
   - From what country did this activity originate?
