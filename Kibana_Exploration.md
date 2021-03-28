@@ -3,12 +3,6 @@ Exploring Kibana Using Generated Data
 
 This document will answer the following questions:
 - Sample Data
-  - In the last 7 days, how many unique visitors were located in India?
-  - In the last 24 hours, of the visitors from China, how many were using Mac OSX?
-  - In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
-  - In the last 7 days, what country produced the majority of the traffic on the website?
-  - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
-  - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type.
 - Unique Visitors Vs. Average Bytes
   - Is there anything that seems potentially strange about this activity?
   - Filter the data by this event. What is the timestamp for this event?
@@ -28,4 +22,20 @@ This document will answer the following questions:
 
 The Kibana Exploration requires data to be observed, and to add data samples is needed to be used for any sort of observation. The images shows the process of adding the sample in addition to observing the data and answering questions during this observation of Kibana.
 
+The following images are steps taken to add sample data for observation:
+
+- Select Load a data set and a Kibana dashboard under Add sample data.
 ![/Images/Kibana_Exploration_Images/AddingSampleData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/AddingSampleData.PNG)
+
+- Select Add Data under the Sample Web Logs data pane.
+![/Images/Kibana_Exploration_Images/AddDataWebLog.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/AddDataWebLog.PNG)
+
+- Select View Data to pull up the dashboard.
+
+- Sample Data Questions:
+  - In the last 7 days, how many unique visitors were located in India?
+  - In the last 24 hours, of the visitors from China, how many were using Mac OSX?
+  - In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
+  - In the last 7 days, what country produced the majority of the traffic on the website?
+  - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
+  - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type.
