@@ -22,7 +22,7 @@ The following images are steps taken to add sample data for observation:
 
 ### Sample Data Questions:
   - In the last 7 days, how many unique visitors were located in India?
-  - Answer: 225
+  - Answer: 225 
   ![/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG)
 
   - In the last 24 hours, of the visitors from China, how many were using Mac OSX?
