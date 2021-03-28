@@ -88,11 +88,14 @@ This ELK server is configured to monitor the following machines:
   - Web-3: 10.0.0.7
   - ELK-SERVER: 10.1.0.4
 
-
 We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat - Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing
+
+The playbook below installs Filebeat on the target hosts. 
+
+![/Ansible/filebeat-playbook.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/filebeat-playbook.yml)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
