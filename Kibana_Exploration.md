@@ -66,7 +66,7 @@ The following images are steps taken to add sample data for observation:
 
 ##Unique Visitors Vs. Average Bytes
 
-  ![/Images/Kibana_Exploration_Images/Download_types.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Download_types.PNG)
+![/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG)
 
   - Is there anything that seems potentially strange about this activity?
   - Filter the data by this event. What is the timestamp for this event?
