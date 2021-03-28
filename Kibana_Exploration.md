@@ -25,3 +25,7 @@ This document will answer the following questions:
   - What do you think the user was doing?
   - Was there anything that seems suspicious about this activity?
   - Is any of the traffic you inspected potentially outside of compliance guidelines?
+
+The Kibana Exploration requires data to be observed, and to add data samples is needed to be used for any sort of observation. The images shows the process of adding the sample in addition to observing the data and answering questions during this observation of Kibana.
+
+![/Ansible/install-elk.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/install-elk.yml)
