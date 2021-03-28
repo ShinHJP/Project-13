@@ -105,7 +105,8 @@ SSH into the control node and follow the steps below:
 - Which file is the playbook? Where do you copy it?
     - Ansible-playbook.yml
     - /etc/ansible
-- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+- Which file do you update to make Ansible run the playbook on a specific machine?
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on?
     -
 - Which URL do you navigate to in order to check that the ELK server is running?
     - Public IP address on port 5601/app (104.42.108.35:5601/app)
