@@ -28,4 +28,4 @@ This document will answer the following questions:
 
 The Kibana Exploration requires data to be observed, and to add data samples is needed to be used for any sort of observation. The images shows the process of adding the sample in addition to observing the data and answering questions during this observation of Kibana.
 
-![/Ansible/install-elk.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/install-elk.yml)
+![/Images/Kibana_Exploration_Images/AddingSampleData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/AddingSampleData.PNG)
