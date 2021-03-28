@@ -71,9 +71,13 @@ The following images are steps taken to add sample data for observation:
   - Most Bytes within the last 7 days, Is there anything that seems potentially strange about this activity?
   - Answer: The results seems strange as there is 2 visitors that is using most of the bytes, this is much higher then other usage.
 
-  ![/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG)
+  ![/Images/Kibana_Exploration_Images/highestbytecount.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/highestbytecount.PNG)
 
   - Filter the data by this event. What is the timestamp for this event?
+  - Answer:
+
+  ![/Images/Kibana_Exploration_Images/highestbytecount.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/highestbytecount.PNG)
+
   - What kind of file was downloaded?
   - From what country did this activity originate?
   - What HTTP response codes were encountered by this visitor?
