@@ -46,7 +46,7 @@ The following images are steps taken to add sample data for observation:
   - Answer:
     - 404 Error: 0%
     - 503 Error: 0%
-  ![/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG)
+  ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
 
   - In the last 7 days, what country produced the majority of the traffic on the website?
   - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
