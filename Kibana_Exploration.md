@@ -5,15 +5,7 @@ This document will answer the following questions:
 - Sample Data
 - Unique Visitors Vs. Average Bytes
 - Kibana Discover page
-  - What is the source IP address of this activity?
-  - What are the geo coordinates of this activity?
-  - What OS was the source machine running?
-  - What is the full URL that was accessed?
-  - From what website did the visitor's traffic originate?
 - Conclusion
-  - What do you think the user was doing?
-  - Was there anything that seems suspicious about this activity?
-  - Is any of the traffic you inspected potentially outside of compliance guidelines?
 
 The Kibana Exploration requires data to be observed, and to add data samples is needed to be used for any sort of observation. The images shows the process of adding the sample in addition to observing the data and answering questions during this observation of Kibana.
 
@@ -96,4 +88,20 @@ The following images are steps taken to add sample data for observation:
   - What HTTP response codes were encountered by this visitor?
   - Answer: HTTP Code: 200 -100%
 
-  ![/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG)
+  ![/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG)
+
+##Kibana Discover page
+
+  - What is the source IP address of this activity?
+  - Answer:
+
+
+  - What are the geo coordinates of this activity?
+  - What OS was the source machine running?
+  - What is the full URL that was accessed?
+  - From what website did the visitor's traffic originate?
+
+##Conclusion
+  - What do you think the user was doing?
+  - Was there anything that seems suspicious about this activity?
+  - Is any of the traffic you inspected potentially outside of compliance guidelines?
