@@ -4,11 +4,6 @@ Exploring Kibana Using Generated Data
 This document will answer the following questions:
 - Sample Data
 - Unique Visitors Vs. Average Bytes
-  - Is there anything that seems potentially strange about this activity?
-  - Filter the data by this event. What is the timestamp for this event?
-  - What kind of file was downloaded?
-  - From what country did this activity originate?
-  - What HTTP response codes were encountered by this visitor?
 - Kibana Discover page
   - What is the source IP address of this activity?
   - What are the geo coordinates of this activity?
@@ -67,9 +62,12 @@ The following images are steps taken to add sample data for observation:
     - deb: A file with the .deb file extension is a Debian (Linux) Software Package file. These files are installed when using the apt package manager.
     - rpm: .rpm file formats are a Red Hat Software Package file. RPM stands for Red Hat Package Manager.
 
-![/Images/Kibana_Exploration_Images/Download_types.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Download_types.PNG)
+    ![/Images/Kibana_Exploration_Images/Download_types.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Download_types.PNG)
 
 ##Unique Visitors Vs. Average Bytes
+
+  ![/Images/Kibana_Exploration_Images/Download_types.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Download_types.PNG)
+
   - Is there anything that seems potentially strange about this activity?
   - Filter the data by this event. What is the timestamp for this event?
   - What kind of file was downloaded?
