@@ -58,9 +58,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Jump Box | Yes                 | 168.61.182.23        |
+| ELK      | No                  | 10.1.0.0-254         |
+| Web-1    | No                  | 10.0.0.1-254         |
+| Web-2    | No                  | 10.0.0.1-254         |
+| Web-3    | No                  | 10.0.0.1-254         |
 
 ### Elk Configuration
 
@@ -93,7 +95,7 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - Filebeat - Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing
 
-The playbook below installs Filebeat on the target hosts. 
+The playbook below installs Filebeat on the target hosts.
 
 ![/Ansible/filebeat-playbook.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/filebeat-playbook.yml)
 
@@ -104,7 +106,6 @@ SSH into the control node and follow the steps below:
 - Copy the playbook file to /etc/ansible.
 - Update the hosts file to include...
 - Run the playbook, and navigate to 10.0.0.5 and curl localhost/setup.php to check that the installation worked as expected..
-
 
 - Which file is the playbook? Where do you copy it?
     - Ansible-playbook.yml
