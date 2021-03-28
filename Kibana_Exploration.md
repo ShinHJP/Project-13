@@ -57,7 +57,7 @@ The following images are steps taken to add sample data for observation:
   - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
   - Answer:10 AM and 1 PM
 
-  ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
+  ![/Images/Kibana_Exploration_Images/Hour10ChinaHEATMap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Hour10ChinaHEATMap.PNG)
 
   - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type.
   - Answer:
@@ -67,7 +67,7 @@ The following images are steps taken to add sample data for observation:
     - deb: A file with the .deb file extension is a Debian (Linux) Software Package file. These files are installed when using the apt package manager.
     - rpm: .rpm file formats are a Red Hat Software Package file. RPM stands for Red Hat Package Manager.
 
-![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
+![/Images/Kibana_Exploration_Images/Download_types.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Download_types.PNG)
 
 ##Unique Visitors Vs. Average Bytes
   - Is there anything that seems potentially strange about this activity?
