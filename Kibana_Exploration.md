@@ -20,7 +20,7 @@ The following images are steps taken to add sample data for observation:
 - Select View Data to pull up the dashboard.
 ![/Images/Kibana_Exploration_Images/InstalledSampleWebData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/InstalledSampleWebData.PNG)
 
-##Sample Data Questions:
+### Sample Data Questions:
   - In the last 7 days, how many unique visitors were located in India?
   - Answer: 225
   ![/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG)
@@ -56,7 +56,7 @@ The following images are steps taken to add sample data for observation:
 
     ![/Images/Kibana_Exploration_Images/Download_types.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Download_types.PNG)
 
-##Unique Visitors Vs. Average Bytes
+### Unique Visitors Vs. Average Bytes
 
 ![/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG)
 
@@ -90,7 +90,7 @@ The following images are steps taken to add sample data for observation:
 
   ![/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG)
 
-##Kibana Discover page
+### Kibana Discover page
 
   - What is the source IP address of this activity?
   - Answer:
