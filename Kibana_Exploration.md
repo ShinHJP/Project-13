@@ -74,7 +74,7 @@ The following images are steps taken to add sample data for observation:
   ![/Images/Kibana_Exploration_Images/highestbytecount.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/highestbytecount.PNG)
 
   - Filter the data by this event. What is the timestamp for this event?
-  - Answer:
+  - Answer: The time: Mar 27, 2021 @ 18:00:00.0 - Mar 27, 2021 @ 21:00:00.0 The time stamp is 20:35
 
   Filtered the two counts
   ![/Images/Kibana_Exploration_Images/2uniquevisitorsHighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/2uniquevisitorsHighusage.PNG)
@@ -84,5 +84,9 @@ The following images are steps taken to add sample data for observation:
   ![/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG)
 
   - What kind of file was downloaded?
+  - Answer: zip file
+
+  ![/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG)
+
   - From what country did this activity originate?
   - What HTTP response codes were encountered by this visitor?
