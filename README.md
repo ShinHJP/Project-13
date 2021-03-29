@@ -108,12 +108,12 @@ SSH into the control node and follow the steps below:
     - 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
 
 >$ cd /etc/ansible
-$ mkdir files
-# Clone Repository + IaC Files
-$ git clone https://github.com/yourusername/project-1.git
-# Move Playbooks and hosts file Into /etc/ansible
-$ cp project-1/playbooks/* .
-$ cp project-1/files/* ./files
+>$ mkdir files
+># Clone Repository + IaC Files
+>$ git clone https://github.com/yourusername/project-1.git
+># Move Playbooks and hosts file Into /etc/ansible
+>$ cp project-1/playbooks/* .
+>$ cp project-1/files/* ./files
 
 - Run the playbook, and ssh to 10.1.0.4 and curl localhost/setup.php to check that the installation worked as expected..
 
