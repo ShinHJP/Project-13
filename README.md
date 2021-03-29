@@ -46,17 +46,17 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - Add whitelisted IP addresses:
-    168.61.182.23
+    - Host Machine IP
 
 Machines within the network can only be accessed by SSH from the Jump-Box VM.
 - Which machine did you allow to access your ELK VM? What was its IP address?
-    Jump-Box can access the ELK-SERVER private IP is 10.2.0.4
+  - Jump-Box can access the ELK-SERVER private IP is 10.1.0.4
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 168.61.182.23        |
+| Jump Box | Yes                 | Host Machine IP      |
 | ELK      | No                  | 10.1.0.0-254         |
 | Web-1    | No                  | 10.0.0.1-254         |
 | Web-2    | No                  | 10.0.0.1-254         |
@@ -95,8 +95,7 @@ These Beats allow us to collect the following information from each machine:
 
 The playbook below installs Filebeat on the target hosts.
 
-![/Ansible/filebeat-playbook.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/filebeat-playbook.yml)
-
+[/Ansible/filebeat-playbook.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/filebeat-playbook.yml)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
@@ -108,7 +107,7 @@ SSH into the control node and follow the steps below:
     - 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
     - 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
 
-- Run the playbook, and navigate to 10.1.0.4 and curl localhost/setup.php to check that the installation worked as expected..
+- Run the playbook, and ssh to 10.1.0.4 and curl localhost/setup.php to check that the installation worked as expected..
 
 - Which file is the playbook? Where do you copy it?
     - Ansible-playbook.yml
