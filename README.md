@@ -13,58 +13,6 @@ The files in this repository were used to configure the network depicted below.
 
 ![Diagram/Project-13 ELK Network Diagram.png](https://github.com/ShinHJP/Project-13/blob/main/Diagram/Project-13%20ELK%20Network%20Diagram.png)
 
----
-- name: Configure Elk VM with Docker
-  hosts: elk
-  remote_user: RedAdmin
-  become: true
-  tasks:
-    # Use apt module
-    - name: Install docker.io
-      apt:
-        update_cache: yes
-        name: docker.io
-        state: present
-
-      # Use apt module
-    - name: Install pip3
-      apt:
-        force_apt_get: yes
-        name: python3-pip
-        state: present
-
-      # Use pip module
-    - name: Install Docker python module
-      pip:
-        name: docker
-        state: present
-
-      # Use sysctl module
-    - name: Use more memory
-      sysctl:
-        name: vm.max_map_count
-        value: "262144"
-        state: present
-        reload: yes
-
-      # Use docker_container module
-    - name: download and launch a docker elk container
-      docker_container:
-        name: elk
-        image: sebp/elk:761
-        state: started
-        restart_policy: always
-        published_ports:
-          - 5601:5601
-          - 9200:9200
-          - 5044:5044
-
-      # Use systemd module
-    - name: Enable service docker on boot
-      systemd:
-        name: docker
-        enabled: yes
-
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config file may be used to install only certain pieces of it, such as Filebeat.
 
 ### Description of the Topology
@@ -149,56 +97,27 @@ The playbook below installs Filebeat on the target hosts.
 
 ![/Ansible/filebeat-playbook.yml](https://github.com/ShinHJP/Project-13/blob/main/Ansible/filebeat-playbook.yml)
 
----
-- name: Installing and Launch Filebeat
-  hosts: webservers
-  become: yes
-  tasks:
-    # Use command module
-  - name: Download filebeat .deb file
-    command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.1-amd64.deb
-
-    # Use command module
-  - name: Install filebeat .deb
-    command: dpkg -i filebeat-7.6.1-amd64.deb
-
-    # Use copy module
-  - name: Drop in filebeat.yml
-    copy:
-      src: /etc/ansible/files/filebeat-config.yml
-      dest: /etc/filebeat/filebeat.yml
-
-    # Use command module
-  - name: Enable and Configure System Module
-    command: filebeat modules enable system
-
-    # Use command module
-  - name: Setup filebeat
-    command: filebeat setup
-
-    # Use command module
-  - name: Start filebeat service
-    command: service filebeat start
-
-    # Use systemd module
-  - name: Enable service filebeat on boot
-    systemd:
-      name: filebeat
-      enabled: yes
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 
 SSH into the control node and follow the steps below:
 - Copy the playbook file to /etc/ansible.
-- Update the hosts file to include...
-- Run the playbook, and navigate to 10.0.0.5 and curl localhost/setup.php to check that the installation worked as expected..
+- Update the hosts file to include each vm client IP address
+    - 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
+    - 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
+    - 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
+
+- Run the playbook, and navigate to 10.1.0.4 and curl localhost/setup.php to check that the installation worked as expected..
 
 - Which file is the playbook? Where do you copy it?
     - Ansible-playbook.yml
     - /etc/ansible
 - Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-    - It is updated on the hosts file, add hosts name elk into the webservers group followed by the IP address for the ELK-SERVER in this case 10.2.0.4 /Ansible/hosts-file.txt
+    - It is updated on the hosts file, add hosts name elk into the webservers group followed by the IP address for the ELK-SERVER in this case 10.1.0.4 /Ansible/hosts.txt
+
+    ![/Ansible/hosts.txt](https://github.com/ShinHJP/Project-13/blob/main/Ansible/hosts.txt)
+
 - Which URL do you navigate to in order to check that the ELK server is running?
     - Public IP address on port 5601/app (104.42.108.35:5601/app)
     - Kabana Application
