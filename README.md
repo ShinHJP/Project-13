@@ -106,6 +106,8 @@ SSH into the control node and follow the steps below:
     - 10.0.0.5 ansible_python_interpreter=/usr/bin/python3
     - 10.0.0.6 ansible_python_interpreter=/usr/bin/python3
     - 10.0.0.7 ansible_python_interpreter=/usr/bin/python3
+
+This command is to copy the playbook:
 ```
 $ cd /etc/ansible
 $ mkdir files
@@ -115,7 +117,29 @@ $ git clone https://github.com/yourusername/project-1.git
 $ cp project-1/playbooks/* .
 $ cp project-1/files/* ./files
 ```
+Edit the hosts file to specify which VM to run each playbook:
+```
+$ cd /etc/ansible
+$ cat > hosts <<EOF
+[webservers]
+10.0.0.5
+10.0.0.6
+
+[elk]
+10.0.0.8
+EOF
+```
+
 - Run the playbook, and ssh to 10.1.0.4 and curl localhost/setup.php to check that the installation worked as expected..
+
+```
+$ cd /etc/ansible
+$ ansible-playbook install_elk.yml elk
+$ ansible-playbook install_filebeat.yml webservers
+$ ansible-playbook install_metricbeat.yml webservers
+#ssh into ELK run the curl command to make sure elk is running
+$ curl localhost/setup.php
+```
 
 - Which file is the playbook? Where do you copy it?
     - Ansible-playbook.yml
