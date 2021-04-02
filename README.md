@@ -30,15 +30,16 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name       | Function | IP Address | Operating System |
-|------------|----------|------------|------------------|
-| Jump Box   | Gateway  | 10.0.0.4   | Linux            |
-| Web-1      | Client   | 10.0.0.5   | Linux            |
-| Web-2      | Client   | 10.0.0.6   | Linux            |
-| Web-3      | Client   | 10.0.0.7   | Linux            |
-| ELK-SERVER | Client   | 10.1.0.4   | Linux            |
+| Name          | Function | IP Address | Operating System |
+|---------------|----------|------------|------------------|
+| Jump Box      | Gateway  | 10.0.0.4   | Linux            |
+| Web-1         | Client   | 10.0.0.5   | Linux            |
+| Web-2         | Client   | 10.0.0.6   | Linux            |
+| Web-3         | Client   | 10.0.0.7   | Linux            |
+| ELK-SERVER    | Client   | 10.1.0.4   | Linux            |
+| Load balancer | Client   | 10.1.0.4   | Linux            |
+| ELK-SERVER    | Client   | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
@@ -54,13 +55,14 @@ Machines within the network can only be accessed by SSH from the Jump-Box VM.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes                 | Host Machine IP      |
-| ELK      | No                  | 10.1.0.0-254         |
-| Web-1    | No                  | 10.0.0.1-254         |
-| Web-2    | No                  | 10.0.0.1-254         |
-| Web-3    | No                  | 10.0.0.1-254         |
+| Name          | Publicly Accessible | Allowed IP Addresses                           |
+|---------------|---------------------|------------------------------------------------|
+| Jump Box      | Yes                 | Host Machine IP Using SSH 22                   |
+| ELK           | No                  | Host Machine Public IP using TCP 5601          |
+| Web-1         | No                  | 10.0.0.1-254                                   |
+| Web-2         | No                  | 10.0.0.1-254                                   |
+| Web-3         | No                  | 10.0.0.1-254                                   |
+| Load balancer | No                  | Host Machine Public IP using TCP HTTP 80       |
 
 ### Elk Configuration
 
@@ -150,7 +152,7 @@ $ curl localhost/setup.php
     [/Ansible/hosts.txt](https://github.com/ShinHJP/Project-13/blob/main/Ansible/hosts.txt)
 
 - Which URL do you navigate to in order to check that the ELK server is running?
-    - Public IP address on port 5601/app (104.42.108.35:5601/app)
+    - Public IP address on port 5601/app (ELK-Public IP:5601/app)
     - Kabana Application
 
 Specific commands to run to download the playbook and update the files.
