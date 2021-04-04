@@ -11,7 +11,7 @@ This document contains the following details:
 
 The files in this repository were used to configure the network depicted below.
 
-![Diagram/Project-13 ELK Network Diagram.png](https://github.com/ShinHJP/Project-13/blob/main/Diagram/Project-13%20ELK%20Network%20Diagram.png)
+![Images/Diagram/Project-13 ELK Network Diagram.png](https://github.com/ShinHJP/Project-13/blob/main/Images/Diagram/Project-13%20ELK%20Network%20Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -79,9 +79,9 @@ The Playbook Implementations through the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![/Images/Docker_ps.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Docker_ps.PNG)
+![/Images/Azure/Docker_ps.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Azure/Docker_ps.PNG)
 
-![/Images/Install_ELK_Playbook.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Install_ELK_Playbook.PNG)
+![/Images/Azure/Install_ELK_Playbook.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Azure/Install_ELK_Playbook.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -113,8 +113,6 @@ This command is to copy the playbook:
 ```
 $ cd /etc/ansible
 $ mkdir files
-# Clone Repository + IaC Files
-$ git clone https://github.com/yourusername/project-1.git
 # Move Playbooks and hosts file Into /etc/ansible
 $ cp project-1/playbooks/* .
 $ cp project-1/files/* ./files
