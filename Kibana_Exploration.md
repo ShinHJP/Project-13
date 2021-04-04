@@ -91,6 +91,7 @@ The following images are steps taken to add sample data for observation:
   ![/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG)
 
 ### Kibana Discover page
+    ![/Images/Kibana_Exploration_Images/KibanaClientIP.PNG](https://github.com/ShinHJP/Project-13/blob/main/Kibana_Exploration/KibanaClientIP.PNG)
 
   - What is the source IP address of this activity?
     Answer: 	86.158.95.250
@@ -100,6 +101,8 @@ The following images are steps taken to add sample data for observation:
 
   - What OS was the source machine running?
     Answer: Windows XP
+
+    ![/Images/Kibana_Exploration_Images/KibanaClientURL.PNG](https://github.com/ShinHJP/Project-13/blob/main/Kibana_Exploration/KibanaClientURL.PNG)
 
   - What is the full URL that was accessed?
     Answer: https://www.elastic.co/downloads/beats
