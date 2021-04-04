@@ -93,14 +93,26 @@ The following images are steps taken to add sample data for observation:
 ### Kibana Discover page
 
   - What is the source IP address of this activity?
-  - Answer:
+    Answer: 	86.158.95.250
 
   - What are the geo coordinates of this activity?
-  - What OS was the source machine running?
-  - What is the full URL that was accessed?
-  - From what website did the visitor's traffic originate?
+    Answer: {"lat": 33.12936111,   "lon": -94.97563889}
 
+  - What OS was the source machine running?
+    Answer: Windows XP
+
+  - What is the full URL that was accessed?
+    Answer: https://www.elastic.co/downloads/beats
+
+  - From what website did the visitor's traffic originate?
+    Answer: gregory-linteris
+    http://www.elastic-elastic-elastic.com/success/gregory-linteris
 ##Conclusion
   - What do you think the user was doing?
+    Answer: The user was downloading the beast logs
+
   - Was there anything that seems suspicious about this activity?
+    Answer: This activity seems to be suspicious due to the large bytes that was being used. But this activity is also due to the fact that there could have been a large number of logs being downloaded
+
   - Is any of the traffic you inspected potentially outside of compliance guidelines?
+    Answer: The compliance, logs are being downloaded unless we understand the full reason on this being downloaded this is in compliance where this logs being downloaded is being reviewed.   
