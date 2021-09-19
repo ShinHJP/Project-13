@@ -15,36 +15,36 @@ The following images are steps taken to add sample data for observation:
 ![/Kibana_Exploration/AddingSampleData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Kibana_Exploration/AddingSampleData.PNG)
 
 - Select Add Data under the Sample Web Logs data pane.
-![/Images/Kibana_Exploration_Images/AddDataWebLog.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/AddDataWebLog.PNG)
+![/Kibana_Exploration/AddDataWebLog.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/AddDataWebLog.PNG)
 
 - Select View Data to pull up the dashboard.
-![/Images/Kibana_Exploration_Images/InstalledSampleWebData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/InstalledSampleWebData.PNG)
+![/Kibana_Exploration/InstalledSampleWebData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/InstalledSampleWebData.PNG)
 
 ### Sample Data Questions:
   - In the last 7 days, how many unique visitors were located in India?
   - Answer: 225
-  ![/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG)
+  ![/Kibana_Exploration/UniquevisitorsINIDA.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniquevisitorsINIDA.PNG)
 
   - In the last 24 hours, of the visitors from China, how many were using Mac OSX?
   - Answer: 43
-  ![/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG)
+  ![/Kibana_Exploration/24hourUniqueVisitorChina.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/24hourUniqueVisitorChina.PNG)
 
   - In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
   - Answer:
     - 404 Error: 0%
     - 503 Error: 0%
-  ![/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
+  ![/Kibana_Exploration/Last2days_404_503_errors.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Last2days_404_503_errors.PNG)
 
   - In the last 7 days, what country produced the majority of the traffic on the website?
   - Answer: China
 
-  ![/Images/Kibana_Exploration_Images/Heatmap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Heatmap.PNG)
-  ![/Images/Kibana_Exploration_Images/Request map.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Request%20map.PNG)
+  ![/Kibana_Exploration/Heatmap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Heatmap.PNG)
+  ![/Kibana_Exploration/Request map.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Request%20map.PNG)
 
   - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
   - Answer:10 AM and 1 PM
 
-  ![/Images/Kibana_Exploration_Images/Hour10ChinaHEATMap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Hour10ChinaHEATMap.PNG)
+  ![/Kibana_Exploration/Hour10ChinaHEATMap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Hour10ChinaHEATMap.PNG)
 
   - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type.
   - Answer:
@@ -54,44 +54,44 @@ The following images are steps taken to add sample data for observation:
     - deb: A file with the .deb file extension is a Debian (Linux) Software Package file. These files are installed when using the apt package manager.
     - rpm: .rpm file formats are a Red Hat Software Package file. RPM stands for Red Hat Package Manager.
 
-    ![/Images/Kibana_Exploration_Images/Download_types.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Download_types.PNG)
+    ![/Kibana_Exploration/Download_types.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Download_types.PNG)
 
 ### Unique Visitors Vs. Average Bytes
 
-![/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG)
+![/Kibana_Exploration/Unique_Visitors_vs_Average_Bytes.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Unique_Visitors_vs_Average_Bytes.PNG)
 
   - Most Bytes within the last 7 days, Is there anything that seems potentially strange about this activity?
   - Answer: The results seems strange as there is 2 visitors that is using most of the bytes, this is much higher then other usage.
 
-  ![/Images/Kibana_Exploration_Images/highestbytecount.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/highestbytecount.PNG)
+  ![/Kibana_Exploration/highestbytecount.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/highestbytecount.PNG)
 
   - Filter the data by this event. What is the timestamp for this event?
   - Answer: The time: Mar 27, 2021 @ 18:00:00.0 - Mar 27, 2021 @ 21:00:00.0 The time stamp is 20:35
 
   Filtered the two counts
-  ![/Images/Kibana_Exploration_Images/2uniquevisitorsHighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/2uniquevisitorsHighusage.PNG)
+  ![/Kibana_Exploration/2uniquevisitorsHighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/2uniquevisitorsHighusage.PNG)
 
   Filtered Time
-  ![/Images/Kibana_Exploration_Images/Highusageby2visitors_FilteredTime.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Highusageby2visitors_FilteredTime.PNG)
-  ![/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG)
+  ![/Kibana_Exploration/Highusageby2visitors_FilteredTime.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Highusageby2visitors_FilteredTime.PNG)
+  ![/Kibana_Exploration/Isolated2vistorshighusage.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/Isolated2vistorshighusage.PNG)
 
   - What kind of file was downloaded?
   - Answer: zip file
 
-  ![/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG)
+  ![/Kibana_Exploration/UniqueVisitorDownloadType.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorDownloadType.PNG)
 
   - From what country did this activity originate?
   - Answer: Algeria and Brazil
 
-  ![/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG)
+  ![/Kibana_Exploration/UniqueVisitorsMap.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorsMap.PNG)
 
   - What HTTP response codes were encountered by this visitor?
   - Answer: HTTP Code: 200 -100%
 
-  ![/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG)
+  ![/Kibana_Exploration/UniqueVisitorHTTPCode.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/UniqueVisitorHTTPCode.PNG)
 
 ### Kibana Discover page
-    ![/Images/Kibana_Exploration_Images/KibanaClientIP.PNG](https://github.com/ShinHJP/Project-13/blob/main/Kibana_Exploration/KibanaClientIP.PNG)
+    ![/Kibana_Exploration/KibanaClientIP.PNG](https://github.com/ShinHJP/Project-13/blob/main/Kibana_Exploration/KibanaClientIP.PNG)
 
   - What is the source IP address of this activity?
     Answer: 	86.158.95.250
@@ -102,7 +102,7 @@ The following images are steps taken to add sample data for observation:
   - What OS was the source machine running?
     Answer: Windows XP
 
-    ![/Images/Kibana_Exploration_Images/KibanaClientURL.PNG](https://github.com/ShinHJP/Project-13/blob/main/Kibana_Exploration/KibanaClientURL.PNG)
+    ![/Kibana_Exploration/KibanaClientURL.PNG](https://github.com/ShinHJP/Project-13/blob/main/Kibana_Exploration/KibanaClientURL.PNG)
 
   - What is the full URL that was accessed?
     Answer: https://www.elastic.co/downloads/beats
