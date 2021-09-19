@@ -12,7 +12,7 @@ The Kibana Exploration requires data to be observed, and to add data samples is 
 The following images are steps taken to add sample data for observation:
 
 - Select Load a data set and a Kibana dashboard under Add sample data.
-![/Images/Kibana_Exploration_Images/AddingSampleData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/AddingSampleData.PNG)
+![/Kibana_Exploration/AddingSampleData.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/AddingSampleData.PNG)
 
 - Select Add Data under the Sample Web Logs data pane.
 ![/Images/Kibana_Exploration_Images/AddDataWebLog.PNG](https://github.com/ShinHJP/Project-13/blob/main/Images/Kibana_Exploration_Images/AddDataWebLog.PNG)
